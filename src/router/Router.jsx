@@ -3,6 +3,7 @@ import HomeLayout from "../layouts/HomeLayout";
 import { Children } from "react";
 import AboutUs from "../pages/AboutUs";
 import NotFound from "../pages/NotFound";
+import Hero from "../components/Hero";
 
 const Router = createBrowserRouter ([
     {
@@ -12,6 +13,10 @@ const Router = createBrowserRouter ([
             {
                 path:'/about-us',
                 element: <AboutUs/>
+            },
+            {
+                path:"",
+                element:<Hero/>
             }
         ]
     },

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "category": "Music Festival",
+    "title": "Discover a World",
+    "highlight": "of Celebration",
+    "description": "Experience an unforgettable music festival filled with energy, culture, and live performances from top artists.",
+    "location": "Mirpur 01 Road N12, Dhaka, Bangladesh",
+    "time": "10 AM - 10 PM",
+    "date": "20 April 2027",
+    "buttonText": "Purchase Ticket",
+    "image": "https://react-eventflow.vercel.app/static/media/main-slider-img-1-2.b36979cf66a56916fb74.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Live Concert",
+    "title": "Feel the Rhythm",
+    "highlight": "Live on Stage",
+    "description": "Join thousands of fans and immerse yourself in a night of powerful music, lights, and unforgettable moments.",
+    "location": "Gulshan Open Arena, Dhaka, Bangladesh",
+    "time": "6 PM - 11 PM",
+    "date": "22 April 2027",
+    "buttonText": "Get Tickets",
+    "image": "https://react-eventflow.vercel.app/static/media/main-slider-img-1-3.703b25c58d645cc45d94.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Night Party",
+    "title": "Celebrate the Night",
+    "highlight": "With Music & Joy",
+    "description": "Dance all night with world-class DJs, vibrant visuals, and an electric crowd that keeps the energy alive.",
+    "location": "Bashundhara Convention Center, Dhaka, Bangladesh",
+    "time": "8 PM - 2 AM",
+    "date": "25 April 2027",
+    "buttonText": "Book Now",
+    "image": "https://react-eventflow.vercel.app/static/media/main-slider-img-1-1.4c7e50ad4e87e5394f94.jpg"
+  }
+]
