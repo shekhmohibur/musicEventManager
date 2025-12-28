@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router";
+import { Link, NavLink } from "react-router";import { Link, NavLink } from "react-router";import { Link, NavLink } from "react-router";
 import logo from "../assets/logo.webp";
 import { IoCartOutline, IoMenu } from "react-icons/io5";
 import { FaArrowRight, FaSearch } from "react-icons/fa";
@@ -71,10 +71,10 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-        <div className={`${sidebarOpen ? "absolute transform-gpu left-0" : "-left-full"} transition-all duration-500 min-h-screen bg-black/20 fixed`}>
+        <div className={`${sidebarOpen ? "absolute transform-gpu left-0" : "z-50 -left-full"} transition-all duration-500 min-h-screen bg-black/20 fixed`}>
           <Sidebar sidebarOpen = {handleSidebar}/>
         </div>
-        <div className={`${extra ? "absolute transform-gpu left-0" : "-left-full"} transition-all duration-500 min-h-screen bg-black/20 fixed`}>
+        <div className={`${extra ? "absolute transform-gpu left-0" : "-left-full"} z-50 transition-all duration-500 min-h-screen bg-black/20 fixed`}>
           <Sidebar2 sidebarOpen = {handleExtra}/>
         </div>
     </div>
